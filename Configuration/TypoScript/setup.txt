@@ -42,6 +42,10 @@ page {
 			10 = EXT:theme/Resources/Private/Templates
 		}
 		variables {
+			RootUid = TEXT
+			RootUid.data = leveluid : 0
+		}
+
 
 		}
 
