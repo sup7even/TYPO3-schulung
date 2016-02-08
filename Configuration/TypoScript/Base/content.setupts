@@ -11,4 +11,7 @@ lib.content {
 	grid2of3.select.where = colPos=12
 	grid3of3 < .grid1of3
 	grid3of3.select.where = colPos=13
+
+	footer < .grid1of3
+	footer.select.where = colPos=5
 }
