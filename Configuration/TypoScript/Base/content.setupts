@@ -21,4 +21,7 @@ lib.content {
 
 	main < .grid1of3
 	main.select.where = colPos=0
+
+	sidebar < .grid1of3
+	sidebar.select.where = colPos=1
 }
