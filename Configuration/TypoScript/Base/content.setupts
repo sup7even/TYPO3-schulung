@@ -1,0 +1,14 @@
+lib.content {
+	grid1of3 = CONTENT
+	grid1of3 {
+		table = tt_content
+		select {
+			where = colPos=11
+			orderBy = sorting
+		}
+	}
+	grid2of3 < .grid1of3
+	grid2of3.select.where = colPos=12
+	grid3of3 < .grid1of3
+	grid3of3.select.where = colPos=13
+}
