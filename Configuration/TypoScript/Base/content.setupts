@@ -17,4 +17,7 @@ lib.content {
 
 	jumbotron < .grid1of3
 	jumbotron.select.where = colPos=10
+
+	main < .grid1of3
+	main.select.where = colPos=0
 }
