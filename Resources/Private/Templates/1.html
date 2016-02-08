@@ -1,0 +1,41 @@
+<html data-namespace-typo3-fluid="true"
+	  xmlns:f="http://xsd.helhum.io/ns/typo3/cms-fluid/master/ViewHelpers"
+	  xmlns:v="http://typo3.org/ns/FluidTYPO3/Vhs/ViewHelpers">
+
+
+<f:render partial="MainNav" />
+
+<div class="sujet" style="background-image:url('{f:uri.resource(path: 'Images/Sujet.jpg', extensionName: 'theme')}');"></div>
+
+
+<div class="container" role="main">
+
+	<div class="row mb30">
+
+		<div class="col-md-8">
+			<f:cObject typoscriptObjectPath="styles.content.get" />
+		</div>
+
+		<div class="col-md-3 col-md-offset-1">
+			<div class="panel panel-default">
+				<ul class="nav nav-pills nav-stacked">
+					<li class="nav-item">
+						<a class="nav-link" href="#">Link</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Link</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Weiterer link</a>
+					</li>
+				</ul>
+			</div>
+			SIDEBAR CONTENT
+		</div>
+	</div>
+
+</div>
+
+<f:render partial="Footer" />
+
+</html>
