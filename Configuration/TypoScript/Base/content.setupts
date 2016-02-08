@@ -26,4 +26,5 @@ lib.content {
 
 	sidebar < .grid1of3
 	sidebar.select.where = colPos=1
+	sidebar.slide = -1
 }
