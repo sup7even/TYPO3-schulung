@@ -13,8 +13,10 @@ lib.content {
 	grid3of3.select.where = colPos=13
 
 	footer < .grid1of3
-	footer.select.where = colPos=5
-	footer.select.pidInList = 1
+	footer.select {
+		where = colPos=5
+		pidInList = 1
+	}
 
 	jumbotron < .grid1of3
 	jumbotron.select.where = colPos=10
