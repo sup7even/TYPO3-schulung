@@ -14,4 +14,7 @@ lib.content {
 
 	footer < .grid1of3
 	footer.select.where = colPos=5
+
+	jumbotron < .grid1of3
+	jumbotron.select.where = colPos=10
 }
