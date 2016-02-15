@@ -25,7 +25,7 @@ $EM_CONF[$_EXTKEY] = array(
     'constraints' => array(
         'depends' => array(
             'fluid_styled_content' => '',
-            'news' => '4.1.0-0.0.0',
+//            'news' => '4.1.0-0.0.0',
         ),
         'conflicts' => array(
             'css_styled_content' => ''
